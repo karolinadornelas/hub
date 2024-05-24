@@ -63,6 +63,7 @@
   }
   .circulo-principal {
     background-color: #9dac9c;
+    border: 5px solid #9dac9c;
     border-radius: 50%;
     width: 215px;
     height: 203px;
@@ -160,6 +161,13 @@
     margin-left: 320px;
   }
 
+  .avatar img{
+    margin-top: -25px;
+    margin-left: -45px;
+    height: 210px;
+    width: 170px;
+  }
+
   .avatar-bx{
     position: absolute;
     margin: -45px 0 0 55px;
@@ -242,11 +250,19 @@
     border-left: 5px solid #d8ddd2;
     border-radius: 46px;
     width: 210px;
-    height: 142px;
+    height: 342px;
     margin: 25px 175px;
     background-color: #42614f;
     position: absolute;
+    color: white;
   }
+
+  .skill-set{
+    padding: 8px;
+    font-family: 'Pixelify Sans';
+
+  }
+
   .imagem_e_link {
     display: flex;
   }
