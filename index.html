@@ -1,170 +1,779 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./main.css">
-        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.min.css" rel="stylesheet"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="icon" href="./assets/kh-icon.png">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
-        <title>karolina's hub</title>
-    </head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./assets/projetos/kh-icon-blck.png" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Karolina's Hub</title>
+  </head>
 
-    <body style="background-color: #f3f5eb;">
-        <div class="general-content">
-            <nav class="navbar">
-                <div class="navbutton">
-                    <button id="toggle-dark-mode"><i class="fa-solid fa-moon"></i></button>
-                    <a href="./overview.html">overview</a>
-                    <a href="#">designs</a>
-                    <a href="#">contato</a>
-                </div> 
-            </nav>
-            <div class="conteudo-principal">
-                <div class="wrapped">
-                    <div class="circulo-principal">
-                        <div class="circulo-inside">
-                            <img src="./assets/karolina_pp.jpg">
-                        </div>
-                    </div>
-                            
-                    <div class="retangulo-principal">
-                        <i class="fa-regular fa-heart"></i>
-                        <div class="mbti">
-                            
-                            <h4>Desenvolvedora Front-End</h4>
-                            <p>dornelas.karolina@gmail.com</p>
-                        </div>
-                        <!--titulo-->
-                        <div class="ttl">
-                            <h2>karolina's</h2>
-                            <p>hub</p>
-                            <!--introdução-->
-                            
-                            <div class="intro">
-                                <div class="avatar-bx"><img src="./assets/peishi.png" alt=""></div>
-                                <div class="avatar"><img src="./assets/avatar-bx.png" alt=""></div>
-    
-                                <p>olá, bem vindo ao meu portifólio! aqui você encrontra
-                                uma seleção dos meus projetos favoritos. se estiver interessado
-                                em colaborar ou tem alguma pergunta, eu adoraria receber seu contato.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="green-tile"></div>
-                    <div class="side-squares">
-                        <div class="outline-square"></div>
-    
-                        <div class="qudrado-icones">
-                            <i class="devicon-vuejs-plain"></i>
-                            <p>vue.js</p>
-                        </div>
-    
-                        <div class="qudrado-icones">
-                            <i class="devicon-react-original"></i>
-                            <p>react</p>
-                        </div>
-    
-                        <div class="qudrado-icones">
-                            <i class="devicon-typescript-plain"></i>
-                            <p>typescript</p>
-                        </div> 
-                    </div>
-                    <div class="info-tulipas">
-                        <div class="imagem_e_link">
-                            <img src="#">
-                            <a href="#">M B T I</a>
-                        </div>
-                            <div class="skill-set">
-                                <i class="fa-solid fa-graduation-cap"></i>
-                                <p>análise e desenvolvimento de sistemas</p>
-                            </div>
-                            <p>um texto qualquer um texto qualquer</p>
-                    </div>
-                    <div class="detalhe"></div>
-                </div>
-    
-                <div class="info-2">
-                        <div class="carousel">
-                            <div class="carousel-track">
-                                <div class="carousel-item">
-                                    <img class="projeto-a" src="./assets/projeto-a.jpg" alt="">
-                                    <p>Pumpkin shop, e-store fictícia</p>
-                                    <div class="tecnologias">
-                                        <i class="devicon-react-original"></i>
-                                        <i class="devicon-firebase-plain"></i>
-                                        <a href="#">deploy</a>
-                                        <a href="#">repositório</a>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="projeto-b" src="./assets/projeto-b.gif" alt="">
-                                    <p>Choco shop, e-store fictícia</p>
-                                    <div class="tecnologias">
-                                        <i class="devicon-react-original"></i>
-                                        <i class="devicon-typescript-plain"></i>
-                                        <a href="#">deploy</a>
-                                        <a href="#">repositório</a>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="projeto-c" src="./assets/projeto-c.gif" alt="">
-                                    
-                                    <p>Cookie Cat, e-store fictícia</p>
-                                    <div class="tecnologias">
-                                        <i class="devicon-react-original"></i>
-                                        <i class="devicon-vuejs-plain"></i>
-                                        <a href="#">deploy</a>
-                                        <a href="#">repositório</a>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="projeto-d" src="./assets/projeto-d.jpg" alt="">
-                                    <p>Animefy, plataforma de streaming fictícia </p>
-                                    <div class="tecnologias">
-                                        <i class="fa-brands fa-bootstrap"></i>
-                                        <i class="fa-brands fa-js"></i>
-                                        <a href="https://tarefa-streaming-amfy.vercel.app/">deploy</a>
-                                        <a href="https://github.com/karolinadornelas/tarefa-streaming/tree/main">repositório</a>
-                                    </div>
-                                </div>
-                                <!-- Adicione mais itens conforme necessário -->
-                            </div>
-                        </div>
-                        
-                        <div class="carousel-buttons">
-                            <button id="prevBtn" class="carousel-button"><i class="fa-solid fa-arrow-left"></i></button>
-                            <button id="nextBtn" class="carousel-button"><i class="fa-solid fa-arrow-right"></i></button>
-                        </div>                        
-                </div>
-                <div class="info-3"></div> 
-                <div class="info-4">
-                    <p class="titulo-bottom">sociais</p>
-                    <div class="sociais">
-                        <i class="fa-brands fa-github"></i>
-                        <i class="fa-brands fa-linkedin"></i>
-                        <i class="fa-brands fa-pinterest"></i>
-                    </div>
-    
-                    <div class="star">
-                        <h5>EBAC</h5>
-                        <p>um texto maiorzinho um texto maiorzinho um texto maiorzinho um texto maiorzinho</p>
-                    </div>
-                </div> 
-                <div class="circulo-info">
-                    <img src="./assets/flower.png" alt="">
-                </div>    
-            </div>
-            <footer>
-                <p>developed by @karolinadornelas</p>
-                <p>layout inspo @brujafluvial</p>
-            </footer>
+  <body>
+    <div class="content">
+      <nav class="navbar">
+        <h3>Karolina's Hub</h3>
+        <h3>Front-End Developer</h3>
+      </nav>
+
+      <div class="main-bundle-bx">
+        <div class="main-bundle">
+          <h1>PORTI<br />FOLIO</h1>
         </div>
-        
+      </div>
 
-        <script src="script.js"></script>
-    </body>
+      <div class="deco-bundle">
+        <div class="deco-bundle-left">
+          <div class="deco-bundle-line">
+            <div class="deco-line"></div>
+            <div class="deco-line"></div>
+            <div class="deco-line"></div>
+            <div class="deco-line-c"></div>
+          </div>
+          <div class="square-bundle">
+            <div class="square-deco vermelho"></div>
+            <div class="square-deco amarelo"></div>
+            <div class="square-deco verde"></div>
+            <div class="square-deco azul"></div>
+            <div class="square-deco roxo"></div>
+          </div>
+          <div class="deco-bundle-line">
+            <div class="deco-line"></div>
+            <div class="deco-line"></div>
+            <div class="deco-line"></div>
+            <div class="deco-line-c"></div>
+          </div>
+        </div>
+        <div class="deco-bundle-right">
+          <div class="deco-bundle-line">
+            <div class="deco-line"></div>
+            <div class="deco-line"></div>
+            <div class="deco-line"></div>
+            <div class="deco-line-c"></div>
+          </div>
+          <div class="square-bundle">
+            <div class="square-deco star"><i class="fa-solid fa-star"></i></div>
+            <div class="square-deco desktop">
+              <i class="fa-solid fa-desktop"></i>
+            </div>
+            <div class="square-deco bookmark">
+              <i class="fa-solid fa-bookmark"></i>
+            </div>
+          </div>
+          <div class="deco-bundle-line">
+            <div class="deco-line"></div>
+            <div class="deco-line"></div>
+            <div class="deco-line"></div>
+            <div class="deco-line"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bundle">
+        <div class="profile-desc">
+          <div class="bb-x">
+            <div class="profile-desc-pic-frame">
+              <img src="./assets/profile.jpg" alt="Profile Picture" />
+              <div class="profile-desc-info">
+                <h5>Karolina Dornelas</h5>
+                <p>'00</p>
+              </div>
+            </div>
+            <div class="profile-pic-frame-shadow"></div>
+          </div>
+          <div class="profile-desc-bubble-speech">
+            <p>
+              Olá, bem-vindo ao meu portfólio! Aqui, além de informações sobre
+              mim, você encontra uma seleção dos meus projetos favoritos.
+            </p>
+          </div>
+          <div class="profile-desc-about">
+            <div class="profile-desc-about-title">
+              <i class="fa-solid fa-star"></i>
+              <h4>SOBRE MIM</h4>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <hr />
+            <div class="profile-desc-about-txt">
+              <p>
+                Embora ainda não tenha experiência profissional na área, venho
+                desenvolvendo projetos pessoais para aprimorar minhas
+                habilidades e explorar minha criatividade. Desenvolvi interfaces
+                interativas e responsivas em React, utilizando CSS e Less,
+                criando um portfólio que destaca a usabilidade e o design
+                adaptativo. Mantenho um repositório ativo no GitHub, chamado
+                'my-hub', onde compartilho meus trabalhos e colaboro com outros
+                desenvolvedores, aplicando práticas de controle de versão.
+              </p>
+
+              <p></p>
+            </div>
+          </div>
+
+          <div class="profile-desc-about">
+            <div class="profile-desc-about-title">
+              <i class="fa-solid fa-star"></i>
+              <h4>CONTATO</h4>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <hr />
+            <div class="profile-desc-about-txt">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  <p>dornelas.karolina@gmail.com</p>
+                </li>
+
+                <li>
+                  <i class="fa-brands fa-whatsapp"> </i>
+                  <p>(61) 9 9505 5629</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="profile-desc-scnd">
+          <div class="profile-desc-about">
+            <div class="profile-desc-about-title">
+              <i class="fa-solid fa-star"></i>
+              <h4>EDUCAÇÃO</h4>
+            </div>
+            <hr />
+
+            <div class="wrap">
+              <div class="title-ex">
+                <div class="experience-tittle">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                  <h5>Análise e Desenvolvimento de Sistemas</h5>
+                </div>
+                <div class="btn-title-ex">
+                  <h5>Tecnólogo</h5>
+                  <h5>UCA</h5>
+                  <div class="calendar">
+                    <h5><i class="fa-solid fa-calendar"></i>2024</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="title-ex">
+                <div class="experience-tittle">
+                  <i class="fa-solid fa-desktop"></i>
+                  <h5>Desenvolvimento FullStack</h5>
+                </div>
+                <div class="btn-title-ex">
+                  <h5>Curso Livre</h5>
+                  <h5>EBAC</h5>
+                  <div class="calendar">
+                    <h5><i class="fa-solid fa-calendar"></i>2024</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="profile-desc-about">
+            <div class="profile-desc-about-title">
+              <i class="fa-solid fa-star"></i>
+              <h4>TECH STACK</h4>
+            </div>
+            <hr />
+            <div class="tech-stack">
+              <div class="title-ex">
+                <div class="experience-tittle">
+                  <h5><i class="fa-solid fa-code"></i></h5>
+                  <h5>Front-End</h5>
+                </div>
+                <div class="btn-title-ex">
+                  <h5>javascript</h5>
+                  <h5>vite</h5>
+                  <h5>less</h5>
+                </div>
+              </div>
+              <div class="title-ex">
+                <div class="experience-tittle">
+                  <h5><i class="fa-solid fa-code"></i></h5>
+                  <h5>Back-End</h5>
+                </div>
+                <div class="btn-title-ex">
+                  <h5>firebase</h5>
+                  <h5>node.js</h5>
+                  <h5>express</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="profile-desc-about">
+            <div class="profile-desc-about-title">
+              <i class="fa-solid fa-star"></i>
+              <h4>EXPERIÊNCIA</h4>
+            </div>
+            <hr />
+            <div class="title-ex">
+              <div class="experience-tittle">
+                <i class="fa-solid fa-briefcase"></i>
+                <h5>TELEBRAS - Gestão de Projetos</h5>
+              </div>
+              <div class="btn-title-ex">
+                <h5>estágio</h5>
+                <h5><i class="fa-solid fa-calendar"></i>2023-atual</h5>
+              </div>
+
+              <div class="experience-details">
+                <ul>
+                  <li>
+                    Criação de Dashboards intuitivos e relatórios dinâmicos,
+                    contribuindo para uma análise de resultados mais eficiente;
+                  </li>
+                  <li>
+                    Automatizações para o acompanhamento de entregas integrando
+                    ferramentas de gerenciamento como Sharepoint e Planner com o
+                    Power Automate e Python;
+                  </li>
+                  <li>
+                    Controle de versão de status report e armazenamento de
+                    dados;
+                  </li>
+                  <li>Auxílio na coordenação de equipes técnicas</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="profile-desc-about">
+            <div class="profile-desc-about-title">
+              <i class="fa-solid fa-star"></i>
+              <h4>IDIOMAS</h4>
+            </div>
+            <hr />
+            <div class="title-ex">
+              <div class="experience-tittle">
+                <h5><i class="fa-solid fa-flag-usa"></i></h5>
+                <h5>Inglês</h5>
+              </div>
+              <div class="btn-title-ex">
+                <h5>Avançado</h5>
+                <h5>Escrita</h5>
+                <h5>Fala</h5>
+              </div>
+              <a href="#" class="link-gg"
+                ><i class="fa-solid fa-play"></i>Apresentação</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="project-hall">
+        <div class="title-deco-bundle">
+          <i class="fa-solid fa-star"></i>
+          <h2 class="project-title">PROJETOS</h2>
+          <i class="fa-solid fa-star"></i>
+        </div>
+
+        <!--hall de projetos-->
+        <div id="project-hall-bundle">
+          <div class="project-bundle">
+            <!--ramengo -->
+            <div class="project-details">
+              <h2>ramengo!</h2>
+              <p>
+                RamenGo é uma plataforma que permite que o usuário monte um
+                pedido de ramen, escolhendo os tipos de mantimentos e proteínas
+                do prato, consumindo duas listagens de condimentos da API
+                disponibilizada pela RedVentures. Habilidades: requisição e
+                manipulação de dados; responsividade.
+              </p>
+
+              <div id="bundle-tech">
+                <div class="title-ex">
+                  <div class="experience-tittle">
+                    <h5><i class="fa-solid fa-code"></i></h5>
+                    <h5>Tecnologias</h5>
+                  </div>
+                  <div class="btn-title-ex">
+                    <h5>javascript</h5>
+                  </div>
+                </div>
+                <div class="title-ex">
+                  <div class="experience-tittle">
+                    <h5><i class="fa-solid fa-desktop"></i></h5>
+                    <h5>Visualização</h5>
+                  </div>
+                  <div class="btn-title-ex">
+                    <h5>
+                      <a href="https://github.com/karolinadornelas/RamenGo"
+                        >repositorio</a
+                      >
+                    </h5>
+                    <h5>
+                      <a href="https://ramen-go-omega.vercel.app/">deploy</a>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-overlook">
+                <img
+                  src="./assets/projetos/p-ramen-go.png"
+                  alt="página inicial da aplicação"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="project-bundle">
+            <!--similaridade -->
+            <div class="project-details">
+              <div class="project-type">
+                <h2>similaridade textual</h2>
+                <h5>freelance</h5>
+              </div>
+              <p>
+                Esta aplicação permite comparar textos, verificar a taxa de
+                reprodução textual e gerar um arquivo PDF com as evidências
+                encontradas. Foi desenvolvida para auxiliar o trabalho manual do
+                profissional avaliador de promoções da SECPROM.
+              </p>
+              <div id="bundle-tech">
+                <div class="title-ex">
+                  <div class="experience-tittle">
+                    <h5><i class="fa-solid fa-code"></i></h5>
+                    <h5>Tecnologias</h5>
+                  </div>
+                  <div class="btn-title-ex">
+                    <h5>vite</h5>
+                    <h5>javascript</h5>
+                    <h5>less</h5>
+                  </div>
+                </div>
+
+                <div class="title-ex">
+                  <div class="experience-tittle">
+                    <h5><i class="fa-solid fa-desktop"></i></h5>
+                    <h5>Visualização</h5>
+                  </div>
+                  <div class="btn-title-ex">
+                    <h5>
+                      <a
+                        href="https://github.com/karolinadornelas/similaridade-textual"
+                        >repositorio</a
+                      >
+                    </h5>
+                    <h5>
+                      <a href="https://secprom-reproducao-textual.vercel.app/"
+                        >deploy</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-overlook">
+                <img
+                  src="assets/projetos/p-similaridade.png"
+                  alt="página inicial da aplicação"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="project-bundle">
+            <!--pumpkin shop -->
+            <div class="project-details">
+              <h2>Pumpkin Shop</h2>
+              <p>
+                Este projeto faz parte de uma iniciativa pessoal de transformar
+                flyers em websites interativos para praticar minhas habilidades
+                de reprodução de designs com css. Este em específico é um modelo
+                baseado no design do artista @kusa_8 e representa uma loja
+                fictícia de sopas com cadastro de clientes.
+              </p>
+              <div id="bundle-tech">
+                <div class="title-ex">
+                  <div class="experience-tittle">
+                    <h5><i class="fa-solid fa-code"></i></h5>
+                    <h5>Tecnologias</h5>
+                  </div>
+                  <div class="btn-title-ex">
+                    <h5>vite</h5>
+                    <h5>javascript</h5>
+                    <h5>less</h5>
+                    <h5>gulp</h5>
+                  </div>
+                </div>
+
+                <div class="title-ex">
+                  <div class="experience-tittle">
+                    <h5><i class="fa-solid fa-desktop"></i></h5>
+                    <h5>Visualização</h5>
+                  </div>
+                  <div class="btn-title-ex">
+                    <h5>
+                      <a href="https://github.com/karolinadornelas/pumpkin-shop"
+                        >repositorio</a
+                      >
+                    </h5>
+                    <h5>
+                      <a href="https://tarefa-streaming-amfy.vercel.app/"
+                        >deploy</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="project-overlook">
+                <img
+                  src="./assets/projetos/p-pumpkin.png"
+                  alt="página inicial da aplicação"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="project-bundle">
+            <!--miauleria -->
+            <div class="project-details">
+              <h2>miauleria</h2>
+              <p>
+                Esta aplicação faz parte das entregas de atvidades do curso de
+                desenvolvimento da EBAC. Foi criada para evoluir meus estudos de
+                javascript, estilização com sass e automatização de tarefas com
+                o gulp.
+              </p>
+
+              <div id="bundle-tech">
+                <div class="title-ex">
+                  <div class="experience-tittle">
+                    <h5><i class="fa-solid fa-code"></i></h5>
+                    <h5>Tecnologias</h5>
+                  </div>
+                  <div class="btn-title-ex">
+                    <h5>javascript</h5>
+                    <h5>gulp</h5>
+                    <h5>sass</h5>
+                  </div>
+                </div>
+                <div class="title-ex">
+                  <div class="experience-tittle">
+                    <h5><i class="fa-solid fa-desktop"></i></h5>
+                    <h5>Visualização</h5>
+                  </div>
+                  <div class="btn-title-ex">
+                    <h5>
+                      <a
+                        href="https://github.com/karolinadornelas/icon-generator"
+                        >repositorio</a
+                      >
+                    </h5>
+                    <h5>
+                      <a href="https://miauleria.vercel.app/"
+                        >deploy</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-overlook">
+                <img
+                  src="./assets/projetos/p-miauleria.png"
+                  alt="página inicial da aplicação"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="project-bundle">
+            <!-- projeto -->
+            <div class="project-details">
+              <h2>konbini</h2>
+              <p>
+                Este é um projeto de uma loja virtual para venda de cookies.
+                Possui uma api basica para criar pedidos e tratamento de dados
+                para entrega (cep, telefone); Assim que o pedido é criado, a
+                confirmação personalizada vai para o e-mail cadastrado. O layout
+                e paleta de cores foram inspirados pelo trabalho de @blooming no
+                pinterest.
+              </p>
+              <div id="bundle-tech">
+                <div class="title-ex">
+                  <div class="experience-tittle">
+                    <h5><i class="fa-solid fa-code"></i></h5>
+                    <h5>Tecnologias</h5>
+                  </div>
+                  <div class="btn-title-ex">
+                    <h5>vite</h5>
+                    <h5>javascript</h5>
+                    <h5>less</h5>
+                    <h5>node.js</h5>
+                    <h5>express</h5>
+                  </div>
+                </div>
+
+                <div class="title-ex">
+                  <div class="experience-tittle">
+                    <h5><i class="fa-solid fa-desktop"></i></h5>
+                    <h5>Visualização</h5>
+                  </div>
+                  <div class="btn-title-ex">
+                    <h5>
+                      <a href="https://tarefa-streaming-amfy.vercel.app/"
+                        >repositorio</a
+                      >
+                    </h5>
+                    <h5>
+                      <a href="https://tarefa-streaming-amfy.vercel.app/"
+                        >deploy</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="project-overlook">
+                <img
+                  src="https://placehold.co/420x210"
+                  alt="página inicial da aplicação"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="project-bundle">
+            <!-- correio -->
+            <div class="project-details">
+              <h2>correio elegante</h2>
+              <p>
+                Este é um projeto de uma loja virtual para venda de cookies.
+                Possui uma api basica para criar pedidos e tratamento de dados
+                para entrega (cep, telefone); Assim que o pedido é criado, a
+                confirmação personalizada vai para o e-mail cadastrado. O layout
+                e paleta de cores foram inspirados pelo trabalho de @blooming no
+                pinterest.
+              </p>
+              <div id="bundle-tech">
+                <div class="title-ex">
+                  <div class="experience-tittle">
+                    <h5><i class="fa-solid fa-code"></i></h5>
+                    <h5>Tecnologias</h5>
+                  </div>
+                  <div class="btn-title-ex">
+                    <h5>vite</h5>
+                    <h5>javascript</h5>
+                    <h5>less</h5>
+                    <h5>node.js</h5>
+                    <h5>express</h5>
+
+                  </div>
+                </div>
+
+                <div class="title-ex">
+                  <div class="experience-tittle">
+                    <h5><i class="fa-solid fa-desktop"></i></h5>
+                    <h5>Visualização</h5>
+                  </div>
+                  <div class="btn-title-ex">
+                    <h5>
+                      <a href="https://tarefa-streaming-amfy.vercel.app/"
+                        >repositorio</a
+                      >
+                    </h5>
+                    <h5>
+                      <a href="https://tarefa-streaming-amfy.vercel.app/"
+                        >deploy</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="project-overlook">
+                <img
+                  src="https://placehold.co/420x210"
+                  alt="página inicial da aplicação"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="project-bundle">
+            <!-- correio -->
+            <div class="project-details">
+              <h2>correio elegante</h2>
+              <p>
+                Este é um projeto de uma loja virtual para venda de cookies.
+                Possui uma api basica para criar pedidos e tratamento de dados
+                para entrega (cep, telefone); Assim que o pedido é criado, a
+                confirmação personalizada vai para o e-mail cadastrado. O layout
+                e paleta de cores foram inspirados pelo trabalho de @blooming no
+                pinterest.
+              </p>
+              <div id="bundle-tech">
+                <div class="title-ex">
+                  <div class="experience-tittle">
+                    <h5><i class="fa-solid fa-code"></i></h5>
+                    <h5>Tecnologias</h5>
+                  </div>
+                  <div class="btn-title-ex">
+                    <h5>vite</h5>
+                    <h5>javascript</h5>
+                    <h5>less</h5>
+                  </div>
+                </div>
+
+                <div class="title-ex">
+                  <div class="experience-tittle">
+                    <h5><i class="fa-solid fa-desktop"></i></h5>
+                    <h5>Visualização</h5>
+                  </div>
+                  <div class="btn-title-ex">
+                    <h5>
+                      <a href="https://tarefa-streaming-amfy.vercel.app/"
+                        >repositorio</a
+                      >
+                    </h5>
+                    <h5>
+                      <a href="https://tarefa-streaming-amfy.vercel.app/"
+                        >deploy</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="project-overlook">
+                <img
+                  src="https://placehold.co/420x210"
+                  alt="página inicial da aplicação"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="project-bundle">
+            <!-- correio -->
+            <div class="project-details">
+              <h2>correio elegante</h2>
+              <p>
+                Este é um projeto de uma loja virtual para venda de cookies.
+                Possui uma api basica para criar pedidos e tratamento de dados
+                para entrega (cep, telefone); Assim que o pedido é criado, a
+                confirmação personalizada vai para o e-mail cadastrado. O layout
+                e paleta de cores foram inspirados pelo trabalho de @blooming no
+                pinterest.
+              </p>
+              <div id="bundle-tech">
+                <div class="title-ex">
+                  <div class="experience-tittle">
+                    <h5><i class="fa-solid fa-code"></i></h5>
+                    <h5>Tecnologias</h5>
+                  </div>
+                  <div class="btn-title-ex">
+                    <h5>vite</h5>
+                    <h5>javascript</h5>
+                    <h5>less</h5>
+                    <h5>firebase</h5>
+                  </div>
+                </div>
+
+                <div class="title-ex">
+                  <div class="experience-tittle">
+                    <h5><i class="fa-solid fa-desktop"></i></h5>
+                    <h5>Visualização</h5>
+                  </div>
+                  <div class="btn-title-ex">
+                    <h5>
+                      <a href="https://tarefa-streaming-amfy.vercel.app/"
+                        >repositorio</a
+                      >
+                    </h5>
+                    <h5>
+                      <a href="https://tarefa-streaming-amfy.vercel.app/"
+                        >deploy</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="project-overlook">
+                <img
+                  src="https://placehold.co/420x210"
+                  alt="página inicial da aplicação"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="project-bundle">
+            <!--animefy -->
+            <div class="project-details">
+              <h2>Animefy</h2>
+              <p>
+                Este projeto faz parte das entregas dentro do curso de
+                desenvolvimento fullstack da EBAC, módulo Bootstrap. O Animefy
+                Streaming é uma aplicação fictícia que simula uma plataforma de
+                transmissão de anime, inspirada na fusão entre os estilos
+                visuais do Crunchyroll e do Spotify.
+              </p>
+              <div id="bundle-tech">
+                <div class="title-ex">
+                  <div class="experience-tittle">
+                    <h5><i class="fa-solid fa-code"></i></h5>
+                    <h5>Tecnologias</h5>
+                  </div>
+                  <div class="btn-title-ex">
+                    <h5>bootstrap</h5>
+                  </div>
+                </div>
+
+                <div class="title-ex">
+                  <div class="experience-tittle">
+                    <h5><i class="fa-solid fa-desktop"></i></h5>
+                    <h5>Visualização</h5>
+                  </div>
+                  <div class="btn-title-ex">
+                    <h5>
+                      <a href="https://tarefa-streaming-amfy.vercel.app/"
+                        >repositorio</a
+                      >
+                    </h5>
+                    <h5>
+                      <a href="https://tarefa-streaming-amfy.vercel.app/"
+                        >deploy</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="project-overlook">
+                <img
+                  src="./assets/projetos/p-animefy.png"
+                  alt="página inicial da aplicação"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--fim hall de projetos-->
+    </div>
+    <footer>
+      <p>
+        developed by
+        <a href="https://github.com/karolinadornelas">@karolinadornelas</a>
+      </p>
+      <p>layout inspo <a href="https://www.behance.net/suibarra">@su</a></p>
+    </footer>
+  </body>
 </html>
