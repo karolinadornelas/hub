@@ -32,8 +32,8 @@ const projects = [
     description:
       "Esta aplicação faz parte das entregas de atividades do curso de desenvolvimento da EBAC. Foi criada para evoluir meus estudos de javascript, estilização com sass e automatização de tarefas com o gulp.",
     techStack: ["javascript", "sass", "gulp"],
-    repoUrl: "https://github.com/karolinadornelas/miauleria",
-    deployUrl: "",
+    repoUrl: "https://github.com/karolinadornelas/icon-generator",
+    deployUrl: "https://miauleria.vercel.app/",
     imageUrl: "assets/projetos/p-miauleria.png",
   },
   {

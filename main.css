@@ -140,8 +140,7 @@ body {
 .bundle {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: space-around
 }
 
 .profile-desc {
@@ -149,6 +148,15 @@ body {
   flex-direction: column;
   width: 50%;
   align-items: center;
+
+  /* border: 1px solid green; */
+}
+
+.profile-desc-scnd{
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .profile-desc-info {
@@ -198,6 +206,7 @@ body {
   border-bottom: 4px solid black;
 }
 
+
 .profile-desc-about i {
   margin-right: 15px;
 }
@@ -234,6 +243,8 @@ body {
 
 .wrap {
   display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
 }
 
 .profile-desc-about-txt p {
@@ -667,7 +678,6 @@ footer p {
   }
 
   .profile-desc-about {
-    width: 480px;
     margin: 0 auto;
     text-align: justify;
     margin: 5px;
@@ -723,6 +733,7 @@ footer p {
 
   .profile-desc-scnd {
     width: 50%;
+
   }
 }
 
