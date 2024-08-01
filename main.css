@@ -540,6 +540,112 @@ footer p {
 }
 
 /*Estilos para desktops*/
+@media (max-width: 360px){
+  .navbar {
+    font-size: 12px;
+    font-family: "LEMON MILK";
+    justify-content: space-between;
+  }
+  
+  .main-bundle-bx img{
+    width: 75px;
+  }
+
+  .main-bundle-bx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-bundle-bx h1 {
+    margin-left: -145px;
+    font-size: 75px;
+  }
+
+  .bb-x {
+    margin-top: 15px;
+  }
+
+  .profile-desc-about-title{
+    margin: 2px;
+  }
+
+  .profile-desc {
+    width: 360px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profile-desc-bubble-speech {
+    width: 310px;
+    font-size: 16px;
+  }
+
+  .profile-desc-about{
+    margin:5px;
+    font-size: 18px;
+  }
+  .profile-desc-about-txt p{
+    margin: 10px;
+    padding: 0;
+    width: 320px;
+    font-size: 14px;
+  }
+
+  .wrap, .tech-stack{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile-desc-about-txt ul{
+    margin: 10px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-title-ex{
+    align-items: center;
+    width: auto;
+    height: auto;
+    font-size: 14px;
+  }
+
+  .btn-title-ex h5{
+    font-size: 14px;
+  }
+  /* estilos específicos */
+
+  #project-hall{
+    width: 360px;
+    border: 1px solid red;
+    margin: 5;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: center;
+  }
+
+  .project-details p{
+    width: 335px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  #bundle-tech{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-overlook img{
+    width: 340px;
+    height: auto;
+  }
+
+}
+
 @media (min-width: 393px) and (max-height: 852px) {
   .navbar {
     font-size: 12px;
