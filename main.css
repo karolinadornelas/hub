@@ -541,6 +541,13 @@ footer p {
 
 /*Estilos para desktops*/
 @media (max-width: 360px){
+  .bundle-none{
+    display: none;
+  }
+
+  .deco-line-c{
+    display: none;
+  }
   .navbar {
     font-size: 12px;
     font-family: "LEMON MILK";
