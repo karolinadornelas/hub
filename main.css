@@ -224,21 +224,33 @@ body {
   margin-right: 10px;
 }
 
-.profile-desc-about-txt {
-  font-size: 15px;
+.profile-desc-about-txt a{
+  text-decoration: none;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+  color: #000000;
 }
+
+.profile-desc-about-txt a:hover{
+  color: orange;
+}
+/* 
+a:visited{
+  color: rgb(47, 0, 255);
+} */
 
 .profile-desc-about-txt ul {
   list-style: none;
-  display: flex;
-  margin: 5px;
-  justify-content: center;
+
 }
 
 .profile-desc-about-txt li {
-  margin-right: 25px;
+  margin: 10px 0;
   display: flex;
   align-items: center;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .wrap {
@@ -282,6 +294,7 @@ hr {
   border: 1px solid black;
   padding: 5px;
   border-radius: 15px;
+  cursor: not-allowed;
 }
 
 .link-gg i {
