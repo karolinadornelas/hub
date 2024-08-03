@@ -37,13 +37,13 @@ const projects = [
     imageUrl: "assets/projetos/p-miauleria.png",
   },
   {
-    title: "correio",
+    title: "anime quiz",
     description:
-      "Esta aplicação permite que sejam enviadas mensagens anônimas ou tickets personalizados via whatsapp ou email. Conta com um sistema de cadastro de usuário e filtro anti-bullying",
-    techStack: ["javascript", "firebase", "sass", "gulp"],
-    repoUrl: "https://github.com/karolinadornelas/tarefa-streaming",
-    deployUrl: "https://tarefa-streaming-amfy.vercel.app/",
-    imageUrl: "https://placehold.co/420x210",
+      "Esta é um jogo simples de adivinhação dentro do tema.",
+    techStack: ["javascript"],
+    repoUrl: "https://github.com/karolinadornelas/anime-quiz",
+    deployUrl: "https://anime-quiz-rosy.vercel.app/",
+    imageUrl: "assets/projetos/p-quiz.png",
   },
   {
     title: "animefy",

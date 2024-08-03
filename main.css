@@ -57,7 +57,7 @@ body {
   font-family: "LEMON MILK";
 }
 
-.main-bundle-bx img{
+.main-bundle-bx img {
   width: 150px;
   margin-top: 5px;
   position: relative;
@@ -152,7 +152,7 @@ body {
   /* border: 1px solid green; */
 }
 
-.profile-desc-scnd{
+.profile-desc-scnd {
   /* border: 1px solid green; */
   display: flex;
   flex-direction: column;
@@ -546,8 +546,8 @@ footer p {
     font-family: "LEMON MILK";
     justify-content: space-between;
   }
-  
-  .main-bundle-bx img{
+
+  .main-bundle-bx img {
     width: 75px;
   }
 
@@ -604,7 +604,7 @@ footer p {
     font-size: 75px;
   }
 
-  .main-bundle-bx img{
+  .main-bundle-bx img {
     width: 75px;
   }
 
@@ -647,7 +647,7 @@ footer p {
     align-content: center;
   }
 
-  .main-bundle-bx img{
+  .main-bundle-bx img {
     width: 75px;
   }
 
@@ -682,7 +682,6 @@ footer p {
     text-align: justify;
     margin: 5px;
     padding: 10px;
-
   }
 
   .profile-desc-about-txt ul {
@@ -707,7 +706,7 @@ footer p {
     align-items: center;
   }
 
-  .main-bundle-bx img{
+  .main-bundle-bx img {
     width: 150px;
     margin-top: 5px;
     position: relative;
