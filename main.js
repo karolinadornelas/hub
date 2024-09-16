@@ -12,7 +12,7 @@ const projects = [
     title: "similaridade textual",
     type: "freelance",
     description:
-      "Esta aplicação permite comparar textos, verificar a taxa de reprodução textual e gerar um arquivo PDF com as evidências encontradas. Foi desenvolvida para auxiliar o trabalho manual do profissional avaliador de promoções da SECPROM.",
+      "Esta aplicação permite comparar textos, verificar a taxa de reprodução textual e gerar um arquivo PDF com as evidências encontradas. Foi desenvolvida para auxiliar o trabalho manual do profissional avaliador de promoções da SECPROM. O projeto foi apresentado ao corpo de TI da FAB para aprimoramentos e está em uso pelos agentes.",
     techStack: ["vite", "javascript", "less"],
     repoUrl: "https://github.com/karolinadornelas/similaridade-textual",
     deployUrl: "https://secprom-reproducao-textual.vercel.app/",
