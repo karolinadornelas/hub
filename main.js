@@ -2,7 +2,7 @@ const projects = [
   {
     title: "mhtu!",
     description:
-      "A página foi feita para customização de pedidos para um ateliê. O usuário pode escolher a base da pelúcia, a cor, as vestimentas e outros acessórios, se desejar. Ao finalizar, é gerado um pdf com as informações do pedido e informações de envio. são Habilidades: manipulação do DOM; requisição de API, responsividade.",
+      "A página foi feita para customização de pedidos para um ateliê. O usuário pode escolher a base da pelúcia, a cor, as vestimentas e outros acessórios, se desejar. Ao finalizar, é gerado um pdf com as informações do pedido e informações de envio. Habilidades: manipulação do DOM; requisição de API, responsividade.",
     techStack: ["javascript"],
     repoUrl: "https://github.com/karolinadornelas/mhtu-repo",
     deployUrl: "https://mhtu-custom.vercel.app/",
