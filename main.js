@@ -1,5 +1,14 @@
 const projects = [
   {
+    title: "mhtu!",
+    description:
+      "A página foi feita para customização de pedidos para um ateliê. Habilidades: manipulação do DOM; requisição de API, responsividade.",
+    techStack: ["javascript"],
+    repoUrl: "https://github.com/karolinadornelas/RamenGo",
+    deployUrl: "https://mhtu-custom.vercel.app/",
+    imageUrl: "./assets/projetos/p-ramen-go.png",
+  },
+  {
     title: "ramengo!",
     description:
       "RamenGo é uma plataforma que permite que o usuário monte um pedido de ramen, escolhendo os tipos de mantimentos e proteínas do prato, consumindo duas listagens de condimentos da API disponibilizada pela RedVentures. Habilidades: requisição e manipulação de dados; responsividade.",
