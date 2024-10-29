@@ -6,7 +6,7 @@ const projects = [
     techStack: ["javascript"],
     repoUrl: "https://github.com/karolinadornelas/RamenGo",
     deployUrl: "https://mhtu-custom.vercel.app/",
-    imageUrl: "./assets/projetos/p-ramen-go.png",
+    imageUrl: "./assets/projetos/p-mhtu.png",
   },
   {
     title: "ramengo!",
